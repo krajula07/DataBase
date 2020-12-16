@@ -1,0 +1,33 @@
+**************************************************************************
+Please input your command: 
+getCounts 50
+Replacer: Clock
+
+tableC table has 9734 maps
+tableC table has 101 Distinct Row labels
+tableC table has 99 Distinct Column labels
+
+tableB table has 9728 maps
+tableB table has 100 Distinct Row labels
+tableB table has 99 Distinct Column labels
+
+tableA table has 9778 maps
+tableA table has 100 Distinct Row labels
+tableA table has 99 Distinct Column labels
+
+rstableB table has 9728 maps
+rstableB table has 100 Distinct Row labels
+rstableB table has 99 Distinct Column labels
+
+rstableA table has 9778 maps
+rstableA table has 100 Distinct Row labels
+rstableA table has 99 Distinct Column labels
+
+rstableC table has 9734 maps
+rstableC table has 101 Distinct Row labels
+rstableC table has 99 Distinct Column labels
+
+Number of disk pages that were read: 7122
+Number of disk pages that were written: 3539
+**************************************************************************
+Please input your command: 

@@ -1,0 +1,198 @@
+**************************************************************************
+Please input your command: 
+batchinsert C:\Users\Lokeshwar\Desktop\l1.csv 2 table1 200
+Replacer: Clock
+
+2020-04-22T20:51:02.345098900
+Total Maps Inserted in type 2 : 7
+Batch nodes insertion completed successfully.
+
+Number of disk pages that were read: 15
+Number of disk pages that were written: 11
+**************************************************************************
+Please input your command: 
+batchinsert C:\Users\Lokeshwar\Desktop\l2.csv 4 table2 200
+Replacer: Clock
+
+2020-04-22T20:51:12.849331400
+Total Maps Inserted in type 4 : 14
+Batch nodes insertion completed successfully.
+
+Number of disk pages that were read: 15
+Number of disk pages that were written: 11
+**************************************************************************
+Please input your command: 
+batchinsert C:\Users\Lokeshwar\Desktop\l3.csv 3 table3 200
+Replacer: Clock
+
+2020-04-22T20:51:28.278352900
+Total Maps Inserted in type 3 : 7
+Batch nodes insertion completed successfully.
+
+Number of disk pages that were read: 15
+Number of disk pages that were written: 11
+**************************************************************************
+Please input your command: 
+batchinsert C:\Users\Lokeshwar\Desktop\l4.csv 1 table4 200
+Replacer: Clock
+
+2020-04-22T20:51:39.359914600
+number of entries background:31:max space1024Size of file entry32
+Total Maps Inserted in type 1 : 5
+Batch nodes insertion completed successfully.
+
+Number of disk pages that were read: 16
+Number of disk pages that were written: 11
+**************************************************************************
+Please input your command: 
+rowjoin table1 table2 rjt12 Pinniped 
+Invalid command! Please input again!
+
+**************************************************************************
+Please input your command: 
+rowjoin table1 table2 rjt12 Pinniped 20
+Executing the input query...
+Replacer: Clock
+
+table1_2 has 7 maps
+table2_4 has 14 maps
+After Row Join Operation
+Sudan:Sudan2, Alligator, 905, 58670
+Sudan:Sudan2, Pinniped, 994, 58670
+Sudan:Sudan2, Pinniped, 995, 58672
+Sudan:Sudan2, Pinniped, 996, 58673
+Map count after join operation: 4
+Number of disk pages that were read: 123
+Number of disk pages that were written: 35
+**************************************************************************
+Please input your command: 
+rowjoin table1 table2 rjt12 Alligator 20
+Executing the input query...
+Replacer: Clock
+
+table1_2 has 7 maps
+table2_4 has 14 maps
+After Row Join Operation
+Thailand:Thailand, Alligator, 156, 56306
+Thailand:Thailand, Alligator, 906, 56306
+Thailand:Thailand, Pinniped, 993, 58671
+Thailand:Thailand2, Alligator, 156, 56306
+Thailand:Thailand2, Alligator, 901, 56306
+Map count after join operation: 5
+Number of disk pages that were read: 118
+Number of disk pages that were written: 26
+**************************************************************************
+Please input your command: 
+rowjoin table1 table3 rj13 Human 10
+Executing the input query...
+Replacer: Clock
+
+table1_2 has 7 maps
+table3_3 has 7 maps
+After Row Join Operation
+Slovakia:Slovakia, Human, 153, 19003
+Slovakia:Slovakia, Human, 153, 19003
+Map count after join operation: 2
+Number of disk pages that were read: 333
+Number of disk pages that were written: 53
+**************************************************************************
+Please input your command: 
+batchinsert C:\Users\Lokeshwar\Desktop\l2.csv 4 table2 200
+Replacer: Clock
+
+2020-04-22T20:55:54.221430
+Total Maps Inserted in type 4 : 26
+Batch nodes insertion completed successfully.
+
+Number of disk pages that were read: 27
+Number of disk pages that were written: 17
+**************************************************************************
+Please input your command: 
+batchinsert C:\Users\Lokeshwar\Desktop\l3.csv 1 table3 200
+Replacer: Clock
+
+2020-04-22T20:56:34.386246900
+Total Maps Inserted in type 1 : 7
+Total Maps Inserted in type 3 : 7
+Batch nodes insertion completed successfully.
+
+Number of disk pages that were read: 27
+Number of disk pages that were written: 12
+**************************************************************************
+Please input your command: 
+rowjoin table2 table3 rjt23 Human 50
+Executing the input query...
+Replacer: Clock
+
+table2_4 has 26 maps
+table3_1 has 7 maps
+table3_3 has 7 maps
+After Row Join Operation
+NEW_ZEALA:Slovakia, Hemitriak, 904, 7673
+NEW_ZEALA:Slovakia, Human, 904, 19003
+NEW_ZEALA:Slovakia, Pinniped, 995, 58672
+NEW_ZEALA:Slovakia, Badger, 994, 58670
+NEW_ZEALA:Slovakia, Human, 153, 19003
+NEW_ZEALA:Slovakia, Human, 153, 19003
+Slovakia:Slovakia, Human, 153, 19003
+Slovakia:Slovakia, Human, 153, 19003
+Slovakia:Slovakia, Badger, 994, 58670
+Slovakia:Slovakia, Human, 153, 19003
+Slovakia:Slovakia, Human, 153, 19003
+Map count after join operation: 11
+Number of disk pages that were read: 23
+Number of disk pages that were written: 13
+**************************************************************************
+Please input your command: 
+getCounts 50
+Replacer: Clock
+
+tableC table has 9734 maps
+tableC table has 101 Distinct Row labels
+tableC table has 99 Distinct Column labels
+
+tableB table has 9728 maps
+tableB table has 100 Distinct Row labels
+tableB table has 99 Distinct Column labels
+
+tableA table has 9778 maps
+tableA table has 100 Distinct Row labels
+tableA table has 99 Distinct Column labels
+
+rjt12 table has 5 maps
+rjt12 table has 2 Distinct Row labels
+rjt12 table has 2 Distinct Column labels
+
+rjt23 table has 11 maps
+rjt23 table has 2 Distinct Row labels
+rjt23 table has 4 Distinct Column labels
+
+selfJoinC table has 12922 maps
+selfJoinC table has 66 Distinct Row labels
+selfJoinC table has 197 Distinct Column labels
+
+rj13 table has 2 maps
+rj13 table has 1 Distinct Row labels
+rj13 table has 1 Distinct Column labels
+
+table4 table has 5 maps
+table4 table has 5 Distinct Row labels
+table4 table has 5 Distinct Column labels
+
+table3 table has 14 maps
+table3 table has 6 Distinct Row labels
+table3 table has 5 Distinct Column labels
+
+table2 table has 26 maps
+table2 table has 10 Distinct Row labels
+table2 table has 8 Distinct Column labels
+
+table1 table has 7 maps
+table1 table has 5 Distinct Row labels
+table1 table has 5 Distinct Column labels
+
+rstableB table has 9728 maps
+rstableB table has 100 Distinct Row labels
+rstableB table has 99 Distinct Column labels
+
+rstableA table has 9778 maps
